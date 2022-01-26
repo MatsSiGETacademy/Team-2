@@ -17,9 +17,5 @@ var clone = elem.cloneNode(true);
     </script>
 </body>
 
-</html>
-   
-    </script>
-</body>
 
 </html>
