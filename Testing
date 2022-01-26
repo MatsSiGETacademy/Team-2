@@ -9,7 +9,8 @@
 
 <body>
     // Get the element
-var elem = document.querySelector('#elem1');
+var elem = document.querySelector ('#boble.png');
+// ('https://github.com/WickedSerpent/Team-2/blob/main/boble.png');
 
 // Create a copy of it
 var clone = elem.cloneNode(true);
