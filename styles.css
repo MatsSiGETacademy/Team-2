@@ -1,5 +1,8 @@
-div {
+.container {
   display: flex;
-  flex-direction: row;
-  margin: 30px;
+}
+
+.images {
+  border: 2px solid black;
+  margin: 25px;
 }

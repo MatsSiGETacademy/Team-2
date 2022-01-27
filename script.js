@@ -9,7 +9,3 @@ function display() {
   result.innerHTML += resultat;
   resultat = "";
 }
-
-function reset() {
-  result.innerHTML = "";
-}
