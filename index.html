@@ -8,19 +8,25 @@
     <title>Team oppgave</title>
   </head>
   <body>
-    <div class="imagebox">
-      <img
-        class="images"
-        id="stjerne"
-        src="img/stjerne.png"
-        onclick="stjerne(this)"
-      />
-      <img class="images" id="boble" src="img/boble.png" onclick="boble()" />
-      <img class="images" id="hjerte" src="img/hjerte.png" />
-      <img class="images" id="pil" src="img/pil.png" />
+    <div class="img-container" id="img-container">
+      <div class="images" id="stjerne" onclick="selectItems(this)">
+        <img src="img/stjerne.png" />
+      </div>
+      <div class="images" id="boble" onclick="selectItems(this)">
+        <img src="img/boble.png" />
+      </div>
+      <div class="images" id="hjerte" onclick="selectItems(this)">
+        <img src="img/hjerte.png" />
+      </div>
+      <div class="images" id="pil" onclick="selectItems(this)">
+        <img src="img/pil.png" />
+      </div>
     </div>
+    <button id="buttonShow" onclick="displayItems()">Show Selected</button>
 
-    <button id="btn">Trykk her</button>
+    <button id="buttonReset" onclick="resetItems()">Reset List</button>
+
+    <div id="result-container" class="result-container"></div>
 
     <div id="resultat"></div>
 
