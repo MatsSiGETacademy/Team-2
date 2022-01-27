@@ -1,18 +1,15 @@
-const imgContainer = document.getElementById("img-container");
-const buttonShow = document.getElementById("buttonShow");
-const buttonReset = document.getElementById("buttonReset");
-const resultContainer = document.getElementById("result-container");
+const result = document.getElementById("result");
 let resultat = "";
 
-function selectItems(clickedElement) {
+function select(clickedElement) {
   resultat += clickedElement.innerHTML;
 }
 
-function displayItems() {
-  resultContainer.innerHTML += resultat;
+function display() {
+  result.innerHTML += resultat;
   resultat = "";
 }
 
-function resetItems() {
-  resultContainer.innerHTML = "";
+function reset() {
+  result.innerHTML = "";
 }
